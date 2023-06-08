@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .navbar {
+    background-color: #fbff00;
+  }
+  
+  .navbar-brand img {
+    margin-right: 5px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+  
+  .carousel-caption h5,
+  .carousel-caption p {
+    color: #fff;
+  }
+
+  .alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+
+  footer {
+    color: #fff;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 30px;
+  }
+  
+  section p {
+    line-height: 1.5;
+  }
+
+  .row .col-md-4 {
+    margin-bottom: 20px;
+  }
+  
+
+  .hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    margin-bottom: 30px;
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  .small-carousel {
+    max-width: 1300px; 
+    margin: 0 auto; 
+  }

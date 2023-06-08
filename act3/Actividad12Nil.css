@@ -1,0 +1,207 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .container {
+    margin-top: 30px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .form-check-label {
+    font-weight: bold;
+  }
+  
+  #alergia_opciones {
+    display: none;
+  }
+  
+  .form-check-input[type="checkbox"]:checked ~ #alergia_opciones {
+    display: block;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+
+
+  .animated-image {
+    height: 300px;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  .image1 {
+    animation: animacion1 2s infinite;
+  }
+  
+  .image2 {
+    animation: animacion2 2s infinite;
+  }
+  
+  .image3 {
+    animation: animacion3 2s infinite;
+  }
+  
+  @keyframes animacion1 {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes animacion2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  @keyframes animacion3 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+
+
+
+  @keyframes color-animation {
+    0% {
+      color: red;
+    }
+    25% {
+      color: blue;
+    }
+    50% {
+      color: green;
+    }
+    75% {
+      color: orange;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
+  .color-animation {
+    animation: color-animation 5s infinite;
+  }
+
+
+
+
+
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-down {
+    animation: fade-down 1s ease-out;
+  }
+
+
+
+
+  .flip-color-animation {
+    animation: zoomInRight 1s forwards;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f44336;
+  }
+  
+  @keyframes zoomInRight {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0) scale3d(0.2, 0.2, 0.2);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+
+
+  @keyframes colorAnimation {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: orange; }
+    100% { color: purple; }
+  }
+  
+  @keyframes moveAnimation {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(50px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .animated-title {
+    animation: colorAnimation 4s infinite, moveAnimation 3s infinite;
+  }
+  
+  .animated-title:hover {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
