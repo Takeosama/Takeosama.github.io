@@ -19,6 +19,44 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+    h1 {
+      text-align: center;
+      color: #333333;
+    }
+    table {
+      width: 100%;
+      margin-top: 30px;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #dddddd;
+    }
+    th {
+      background-color: #f9f9f9;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #e2e2e2;
+    }
+  </style>
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -532,7 +570,8 @@
 
  <!-- ======= DInero ======= -->
 
- <h1>Tarifas</h1>
+ <div class="container">
+  <h1>Tarifas</h1>
   <table>
     <tr>
       <th>Tarifa Básica</th>
@@ -540,26 +579,36 @@
       <th>Tarifa Premium</th>
     </tr>
     <tr>
-      <td>$9.99/mes</td>
-      <td>$19.99/mes</td>
-      <td>$29.99/mes</td>
-    </tr>
-    <tr>
-      <td>Función 1</td>
-      <td>Función 1, Función 2</td>
-      <td>Función 1, Función 2, Función 3</td>
-    </tr>
-    <tr>
-      <td>Función 2</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Función 3</td>
-      <td></td>
-      <td></td>
+      <td>
+        <h2>$9.99/mes</h2>
+        <ul>
+          <li>Función 1</li>
+          <li>Función 2</li>
+        </ul>
+        <a href="#" class="btn">Seleccionar</a>
+      </td>
+      <td>
+        <h2>$19.99/mes</h2>
+        <ul>
+          <li>Función 1</li>
+          <li>Función 2</li>
+          <li>Función 3</li>
+        </ul>
+        <a href="#" class="btn">Seleccionar</a>
+      </td>
+      <td>
+        <h2>$29.99/mes</h2>
+        <ul>
+          <li>Función 1</li>
+          <li>Función 2</li>
+          <li>Función 3</li>
+          <li>Función 4</li>
+        </ul>
+        <a href="#" class="btn">Seleccionar</a>
+      </td>
     </tr>
   </table>
+</div>
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
